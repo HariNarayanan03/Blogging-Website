@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog: </title>
+
+    <link rel="stylesheet" href="./css/editor.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <span style="color: brown;"><b>BlogOne</b></span>
+        </div>
+        <div class="nav-items">
+            <ul class="list">
+                <li class="list-items"><a href="./home.html">Home</a></li>
+                <li class="list-items"><a href="./editor.html">Post</a></li>
+                <li class="list-items"><a href="./blog.html">MoreBlogs</a></li>
+                <!-- <li class="list-items"><a href="./editor.html">Login/SignUp</a></li> -->
+
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="banner"></div>
+
+    <div class="blog">
+        <h1 class="title"></h1>
+        <p class="published"><span>Published at - </span></p>
+        <!-- <div class="article">
+            
+        </div> -->
+        <div style='width:100%; height: auto;' class="article"></div>
+    </div>
+    <div class="blog-options">
+        <a class="btn dark publish-btn" href="./home.html" style="padding: 4px;">Back To Home</a>
+        <!-- <input type="file" accept="image/*" id="image-upload" hidden>
+        <label for="image-upload" class="btn grey upload-btn">Upload Image</label> -->
+    </div>
+    <!-- <h1 class="sub-heading">Read more</h1> -->
+    <section class="blogs-section">
+        <!-- <div class="blog-card">
+            <h1 class="blog-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit laboriosam dolore aliquam doloribus accusamus sequi ratione sapiente, adipisci doloremque vel voluptatem dolorem. Esse nisi culpa natus dolorem odit reiciendis aut!</h1>
+            <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus officiis illum magnam numquam, ratione hic. Ab neque sint nobis nihil molestias beatae ratione reiciendis quam, consequuntur cumque, fugiat eos consectetur?</p>
+            <a href="/" class="btn dark">read</a>
+        </div> -->
+    </section>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+    <script src="./js/firebase.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/blog.js"></script>
+    
+</body>
+</html>
